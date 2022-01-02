@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>osu_map_converter</RootNamespace>
+    <AssemblyName>bmap_cv</AssemblyName>
+    <Authors>Ampiduxmoe</Authors>
+    <Description>program that converts osu beatmaps to other formats</Description>
+    <Version>0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Options" Version="6.12.0.148" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bmap_parser">
+      <HintPath>..\..\osu map parser\osu map parser\bin\Release\net5.0\bmap_parser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
