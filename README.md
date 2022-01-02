@@ -1,4 +1,4 @@
-# osu-map-parser
+# osu-map-converter
 simple program that converts osu beatmaps to other text formats
 
 ## Latest releases
